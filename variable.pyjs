@@ -1,0 +1,8 @@
+#Python
+my_int = 6  #Integer with value 6
+
+//Javascript
+
+my_int = 6; //Global integer
+
+var my_int = 6; //Local integer
