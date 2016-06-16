@@ -1,0 +1,24 @@
+In JavaScript unlike in Python every variable, even those declared inside functions are global by default.
+
+For example
+function my_function() {
+my_int = 6;
+};
+is roughly equal to
+
+def my_function():
+    global my_int = 6
+
+While
+
+function my_function() {
+    var my_int = 6;
+};
+is roughly equal to
+
+def my_function():
+    my_int =6
+
+
+To make a variable local var is used.
+var my_int = 1;
